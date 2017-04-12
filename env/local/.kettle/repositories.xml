@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories>
+  <repository>    <id>KettleFileRepository</id>
+    <name>local-file</name>
+    <description>local-file</description>
+    <is_default>false</is_default>
+    <base_directory>C&#x3a;&#x5c;pentaho_projects&#x5c;foo_project&#x5c;content</base_directory>
+    <read_only>N</read_only>
+    <hides_hidden_files>Y</hides_hidden_files>
+  </repository>  <repository>    <id>PentahoEnterpriseRepository</id>
+    <name>61_196_VM</name>
+    <description>PDI  61_196_VM</description>
+    <is_default>false</is_default>
+    <repository_location_url>http&#x3a;&#x2f;&#x2f;192.168.93.139&#x3a;9080&#x2f;pentaho-di</repository_location_url>
+    <version_comment_mandatory>N</version_comment_mandatory>
+  </repository>  <repository>    <id>PentahoEnterpriseRepository</id>
+    <name>LOCAL_DI</name>
+    <description>local DI Repo</description>
+    <is_default>false</is_default>
+    <repository_location_url>http&#x3a;&#x2f;&#x2f;localhost&#x3a;9080&#x2f;pentaho-di</repository_location_url>
+    <version_comment_mandatory>N</version_comment_mandatory>
+  </repository>  <repository>    <id>PentahoEnterpriseRepository</id>
+    <name>LOCAL7_DI</name>
+    <description>Pentaho repository &#x7c; http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;pentaho</description>
+    <is_default>false</is_default>
+    <repository_location_url>http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;pentaho</repository_location_url>
+    <version_comment_mandatory>N</version_comment_mandatory>
+  </repository>  </repositories>
